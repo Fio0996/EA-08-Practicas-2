@@ -1,0 +1,352 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif
+   
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../principal1.jpg);
+    height: 100vh;
+    background-size:  cover;
+    background-position: center;
+    min-height: 100px;
+    
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 250px;
+    margin-right: 150px;
+    font-size: 17px;
+}
+ul li{
+    display: inline-block;   
+}
+
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    background-color:#fff;
+    color: black;
+
+}
+
+
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.titulo{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform:  translate(-50%,-50%);
+}
+
+.titulo h1{
+    color: white;
+    font-size: 70px;
+
+}
+/*pagina principal*/
+.Pprincipal{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform:  translate(-50%,-50%);
+}
+
+.Pprincipal p{
+    color: white;
+    font-size: 30px;
+}
+/*pagina Quienes somos*/
+
+.titulo1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform:  translate(-50%,-50%);
+}
+
+.titulo1 h1{
+    color: white;
+    font-size: 70px;
+
+}
+
+.quienesSomos{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform:  translate(-50%,-50%);
+    text-align: center;
+}
+
+.quienesSomos p{
+    color: white;
+    font-size: 30px;
+    top: 62%;
+     
+    
+}
+
+
+
+/*pagina Tours*/
+
+.tour {
+    width: 45%; /* Ajusta el ancho según tu preferencia */
+    max-width: 400px; /* Ajusta el ancho máximo según tu preferencia */
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    display: inline-block; /* Permite que los tours estén en línea */
+    color: white;
+    vertical-align: top; /* Alinea los tours en la parte superior */
+    margin-left: 10%;
+}
+
+/* Ajusta la posición y el tamaño del tour */
+.tour img {
+    max-width: 100%;
+    height: center;
+    margin-bottom: 25px;
+    margin: 5px;
+}
+
+.price {
+    font-weight: bold;
+    color: white;
+}
+
+button {
+    background-color: whitesmoke;
+    color: black; 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.titulo3 h1 {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 20%;
+    margin-left: 25%;
+    
+    
+}
+
+
+/*pagina Retiros*/
+
+.tituloRetiros{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform:  translate(-50%,-50%);
+}
+
+.tituloRetiros h1{
+    color: white;
+    font-size: 70px;
+
+}
+
+.nuestrosRetiros{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform:  translate(-50%,-50%);
+    text-align: center;
+}
+
+.nuestrosRetiros p{
+    color: white;
+    font-size: 30px;
+    top: 62%;
+}
+
+
+/*pagina clases*/
+
+.ListaClases {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    text-align: center;
+}
+
+.ListaClases ul {
+    float: right;
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    font-size: 25px;
+}
+
+.ListaClases ul li {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+
+.ListaClases ul li:hover {
+    background-color: #fff;
+    color: black;
+}
+
+
+/*pagina libros*/
+
+.librotexto{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform:  translate(-50%,-50%);
+}
+
+.librotexto p{
+    color: white;
+    font-size: 30px;
+}
+
+.libro h1{
+    color: white;
+    font-size: 40px;
+    transform:  translate(-50%,-50%);
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+
+/*pagina conectar*/
+.formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.formulario h2 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.formulario button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.formulario button a{
+    color:#fff;
+}
+
+.formulario button:hover {
+    background-color: #555;
+}
+
+/*pagina retos*/
+
+.reto {
+    width: 45%; /* Ajusta el ancho según tu preferencia */
+    max-width: 400px; /* Ajusta el ancho máximo según tu preferencia */
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    display: inline-block; /* Permite que los tours estén en línea */
+    color: white;
+    vertical-align: top; /* Alinea los tours en la parte superior */
+    margin-left: 38%;
+}
+
+/* Ajusta la posición y el tamaño del tour */
+.reto img {
+    max-width: 100%;
+    height: center;
+    margin-bottom: 25px;
+    margin: 5px;
+}
+
+
+button {
+   background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.reto button:hover{
+    background-color: #555;
+}
+
+
+.TituloReto h1 {
+    color: white;
+    font-size: 40px;
+    border: 2px;
+    transform:  translate(-50%,-50%);
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    
+}
+
+
+
+
+
+
+
+
